@@ -124,6 +124,7 @@ class SinglyCL
                 }
                 last = temp;
                 delete temp->next;
+                temp->next == NULL;
                 last->next = first;                
             }
             iCount--;
@@ -280,4 +281,5 @@ int main()
    
 
     return 0;
+
 }
